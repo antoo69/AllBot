@@ -27,8 +27,8 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/DeeCodeBots'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/DeCodeSupport'), 
+                         Button.url('📣 UPDATES', 'https://t.me/+8veNR2baDgMzZjY1'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/BestieVirtual'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
@@ -44,8 +44,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/DeeCodeBots'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/DeCodeSupport'), 
+                         Button.url('📣 UPDATES', 'https://t.me/+8veNR2baDgMzZjY1'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/BestieVirtual'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
@@ -59,7 +59,7 @@ async def help(event):
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@client.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
+@client.on(events.NewMessage(pattern="^/utag|/tagall|/call|/tall|/all|#all|@all?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
